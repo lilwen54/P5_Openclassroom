@@ -1,11 +1,11 @@
 import Generateur from "./Generateur.js";
+import Citation from "./Citation.js";
 
 ///////////////////////////////////////// PARTIE 1 
 
-let btn1 = document.getElementById("btn");
-btn1.addEventListener("click", generer1);
+let citation1 = new Citation(morceau.salutation, morceau.sujet, morceau.phrase);
 
-function generer1() {
-let generateur000 = new Generateur();
-generateur000.generer1A();
-}
+//INSTANCIATION
+let gen = new Generateur(citation1);
+conteneur2AB.innerHTML = gen.generer1A.phrase
+

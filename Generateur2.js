@@ -13,7 +13,7 @@ generer1A () {
     //let phrase = citationA.createCitation();
     this.conteneur1 = document.getElementById("conteneur1").innerHTML = phrase;
 }
-
+//Doit etre une methode
 generer2A () {
 
     //let phrase = gen1.createcitation()
@@ -25,6 +25,7 @@ generer2A () {
     let phrase = citationA.createCitation();                                             //IMPORTANT POUR GARDER L'ALEA             
     para.innerHTML = phrase;
 };
+//Doit etre une methode
 generer2B () {
     
     let div = document.createElement("div");                                        //creer une div

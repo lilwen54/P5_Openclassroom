@@ -1,7 +1,8 @@
 export default 
 
 class Citation {
-    constructor(debut, milieu, fin) {
+    constructor(debut, milieu, fin)//PARAMETRE
+    {
         this.debut = debut;
         this.milieu = milieu;
         this.fin = fin;
@@ -14,6 +15,7 @@ class Citation {
                 this.random(this.fin)
         
     }
+    //METHODE
     //Random Phrase
     // x ici ne vaut rien, c'est un parametre, que j'initie plus haut dans createCitation avec les parentheses
     //Je l'appelle avec this.random

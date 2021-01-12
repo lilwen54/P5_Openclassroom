@@ -1,29 +1,8 @@
+// ICI Il faut que les tableau (bn je l'ai ai mis dans dat ^^), et les instanciations de generateur et citation
+
 import Generateur from "./Generateur.js";
 
-//Message d'Alerte
-function alerte_fenetre () {
 
-    let alerte = { "message" : ["Vous n'avez pas cliquer sur tout les éléments nécessaires"]}
-    return alert(alerte.message[0])
-}
-
-document.getElementById("A").onclick = function yA() {y=1; console.log("y=" +y)};
-document.getElementById("B").onclick = function yB() {y=2; console.log("y=" +y)};
-
-document.getElementById("choixA").onclick = function yA() {y=1; console.log("y=" +y)};
-document.getElementById("choixB").onclick = function yB() {y=2; console.log("y=" +y)};
-
-let x;
-x = document.querySelector('.chiffre').value ;
-
-document.getElementById('chiffre1').onclick = function chiffre1() {x=1; console.log("x=" +x)};
-document.getElementById('chiffre2').onclick = function chiffre2() {x=2; console.log("x=" +x)};
-document.getElementById('chiffre3').onclick = function chiffre3() {x=3; console.log("x=" +x)};
-document.getElementById('chiffre4').onclick = function chiffre4() {x=4; console.log("x=" +x)};
-document.getElementById('chiffre5').onclick = function chiffre5() {x=5; console.log("x=" +x)};
-
-document.getElementById('btn2').addEventListener('click',generer2);
-let y="";
 
 function generer2 () {
 
