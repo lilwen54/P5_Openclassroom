@@ -10,8 +10,8 @@ this.generateur1 = generateur1
 generer1A () {
 
     let citationA = new Citation(morceau.salutation, morceau.sujet, morceau.phrase);
-    let phrase = citationA.createCitation();
-    document.getElementById("conteneur1").innerHTML = phrase;
+    //let phrase = citationA.createCitation();
+    this.conteneur1 = document.getElementById("conteneur1").innerHTML = phrase;
 }
 
 generer2A () {
